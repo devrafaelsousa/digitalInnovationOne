@@ -2,9 +2,10 @@ package parte02.collections.javaList;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
-public class Exemplo001 {
+public class ExemploList {
 
     public static void main(String[] args) {
 
@@ -66,6 +67,19 @@ public class Exemplo001 {
         boolean listaEstaVazia = nomes.isEmpty();
 
         System.out.println(listaEstaVazia);
+
+        for (String nomeDoItem: nomes) {
+
+            System.out.println("--> " + nomeDoItem);
+
+        }
+
+        Iterator<String> iterator = nomes.iterator();
+
+        while (iterator.hasNext()) {
+
+            System.out.println("----> " + iterator.next());
+        }
 
         nomes.clear();
 
