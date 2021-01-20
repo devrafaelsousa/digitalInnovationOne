@@ -1,4 +1,4 @@
-package parte02.collections.javaList;
+package parte02.collections.javaList.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
