@@ -1,6 +1,6 @@
-package parte01.poo.exemplo01.exemplo.exemplo2;
+package parte01.poo.exemplo01.encapsulamento.exemplo.exemplo2;
 
-import parte01.poo.exemplo01.exemplo.exemplo1.Veiculo;
+import parte01.poo.exemplo01.encapsulamento.exemplo.exemplo1.Veiculo;
 
 public class Carro extends Veiculo {
 

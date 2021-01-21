@@ -1,4 +1,4 @@
-package parte01.poo.exemplo01.exemplo.exemplo1;
+package parte01.poo.exemplo01.encapsulamento.exemplo.exemplo1;
 
 public class Exemplo01 {
 

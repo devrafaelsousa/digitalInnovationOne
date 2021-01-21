@@ -1,6 +1,4 @@
-package parte01.poo.exemplo01.exemplo.exemplo2;
-
-import java.util.Objects;
+package parte01.poo.exemplo01.encapsulamento.exemplo.exemplo1;
 
 public abstract class Veiculo  {
 
@@ -8,7 +6,6 @@ public abstract class Veiculo  {
     private String marca;
 
     private double valorVenal;
-    
 
     public Veiculo(String modelo, String marca, double valorVenal) {
         this.modelo = modelo;
@@ -45,30 +42,4 @@ public abstract class Veiculo  {
     }
 
     public double calculaImposto() { return this.valorVenal * 0.01; }
-
-    @Override
-    public boolean equals(Object obj) {
-        if(obj == null) {
-            return false;
-        }
-
-        Veiculo comparavel;
-        if(obj instanceof Veiculo) {
-            comparavel = (Veiculo)obj;
-        }else {
-            return false;
-        }
-        //Equals
-        // if(comparavel.marca == this.marca && comparavel.modelo == this.modelo && comparavel.valorVenal == this.valorVenal) {
-
-        // HashCode
-        if(this.hashCode() == obj.hashCode()) {
-            return true;
-        }
-        return false;
-    }
-
-    public int hashCode() {
-        return Objects.hash(modelo,marca,valorVenal);
-    }
 }

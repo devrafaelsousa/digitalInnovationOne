@@ -1,4 +1,4 @@
-package parte01.poo.exemplo01.exemplo001;
+package parte01.poo.exemplo01.encapsulamento.exemplo.exemplo001;
 
 public class Carro extends Veiculo {
 

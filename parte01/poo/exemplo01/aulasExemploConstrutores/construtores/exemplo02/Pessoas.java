@@ -1,4 +1,4 @@
-package parte01.poo.exemplo01.exemplo02;
+package parte01.poo.exemplo01.aulasExemploConstrutores.construtores.exemplo02;
 
 public class Pessoas {
 
