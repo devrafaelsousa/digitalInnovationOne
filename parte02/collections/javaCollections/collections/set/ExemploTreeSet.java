@@ -1,4 +1,4 @@
-package parte02.collections.javaList.list.set;
+package parte02.collections.javaCollections.collections.set;
 
 import java.util.Iterator;
 import java.util.TreeSet;

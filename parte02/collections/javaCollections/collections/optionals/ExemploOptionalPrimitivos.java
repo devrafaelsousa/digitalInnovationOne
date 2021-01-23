@@ -1,4 +1,4 @@
-package parte02.collections.javaList.list.optionals;
+package parte02.collections.javaCollections.collections.optionals;
 
 import java.util.Optional;
 import java.util.OptionalDouble;

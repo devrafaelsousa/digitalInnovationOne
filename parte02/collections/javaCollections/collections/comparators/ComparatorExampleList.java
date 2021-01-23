@@ -1,4 +1,4 @@
-package parte02.collections.javaList.list.comparators;
+package parte02.collections.javaCollections.collections.comparators;
 
 import java.util.ArrayList;
 import java.util.Collections;

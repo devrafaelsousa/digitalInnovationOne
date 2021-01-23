@@ -1,4 +1,4 @@
-package parte02.collections.javaList.list.list;
+package parte02.collections.javaCollections.collections.list;
 
 import java.util.List;
 import java.util.Vector;

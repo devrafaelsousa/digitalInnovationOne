@@ -1,4 +1,4 @@
-package parte02.collections.javaList.list.queue;
+package parte02.collections.javaCollections.collections.queue;
 
 import java.util.Iterator;
 import java.util.LinkedList;

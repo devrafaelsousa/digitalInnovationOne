@@ -1,6 +1,4 @@
-package parte02.collections.javaList.list.comparators;
-
-import java.util.Comparator;
+package parte02.collections.javaCollections.collections.comparators;
 
 public class Estudante implements Comparable<Estudante> {
 

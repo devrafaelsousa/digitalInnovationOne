@@ -1,4 +1,4 @@
-package parte02.collections.javaList.list.map;
+package parte02.collections.javaCollections.collections.map;
 
 import java.util.HashMap;
 import java.util.Map;
